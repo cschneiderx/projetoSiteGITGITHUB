@@ -1,0 +1,101 @@
+/* ===============================
+   style.css — Estilo da página Olá, Mundo!
+   =============================== */
+
+/* Define estilo geral da página */
+body {
+  background: linear-gradient(135deg, #e6f2ff, #cce5ff);
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #002244;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Cabeçalho principal */
+h1 {
+  color: #004080;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 3em;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Subtítulos */
+h2 {
+  color: #0059b3;
+  border-left: 5px solid #0077cc;
+  padding-left: 10px;
+  margin: 40px 0 10px 10%;
+}
+
+/* Parágrafos e texto */
+p {
+  width: 80%;
+  margin: 0 auto 20px;
+  font-size: 1.1em;
+}
+
+/* Listas */
+ul {
+  width: 75%;
+  margin: 10px auto 20px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Tabela */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f9ff;
+}
+
+/* Imagens */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Links */
+a {
+  color: #0044cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0077ff;
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  background-color: #004080;
+  color: white;
+  padding: 10px 0;
+  margin-top: 40px;
+}
